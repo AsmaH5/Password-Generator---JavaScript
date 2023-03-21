@@ -110,6 +110,24 @@ function getPasswordOptions() {
         selectedPasswordCharacters.push(...specialCharacters);
     }
 
+    var useNumericCharacters = confirm ("Would you like numeric characters in your password?");
+
+    if (useNumericCharacters === true ){
+        selectedPasswordCharacters.push(...numericCharacters); 
+    }
+
+    var useLowerCasedCharacters = confirm ("Would you like lower cased characters in your password?");
+
+    if (useLowerCasedCharacters === true ){
+        selectedPasswordCharacters.push(...lowerCasedCharacters);
+    }
+
+    var useUpperCasedCharacters = confirm ("Would you like upper cased characters in your password?");
+
+    if (useUpperCasedCharacters === true ){
+        selectedPasswordCharacters.push(...upperCasedCharacters);
+    }
+
 }
   
   // Function for getting a random element from an array
