@@ -32,6 +32,10 @@ To use this Password-Generator, you will click the 'Generate Password' button an
 After answering all of the above questions a password will be presented on the screen.
 
 ## Screenshots of Website and Console:
+![Screenshot 1](https://user-images.githubusercontent.com/97250633/226691274-df84e528-fb71-483e-b457-c5808b0af435.png)
+![Screenshot 2](https://user-images.githubusercontent.com/97250633/226691275-2840c0d7-5c9e-4884-9b2d-8c1498e39e0a.png)
+![Screenshot 3](https://user-images.githubusercontent.com/97250633/226691267-73a33bba-d557-4888-8c19-9706cc2cd2d5.png)
+![Screenshot 4](https://user-images.githubusercontent.com/97250633/226691271-d4edae52-f991-482d-9ad3-3783fa46e863.png)
 
 ## Project Link:
 
