@@ -89,7 +89,7 @@ var specialCharacters = [
   ];
  
  
-
+  var passwordLength = 0;  
 
   // Function to prompt user for password options
 function getPasswordOptions() {
