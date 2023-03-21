@@ -104,6 +104,12 @@ function getPasswordOptions() {
         return;
     }
 
+    var useSpecialCharacters = confirm ("Would you like special characters in your password?");
+
+    if (useSpecialCharacters === true){
+        selectedPasswordCharacters.push(...specialCharacters);
+    }
+
 }
   
   // Function for getting a random element from an array
