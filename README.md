@@ -8,9 +8,9 @@ Present a series of prompts for password criteria:
 * Length of password: At least 8 characters but no more than 128.
 
 * Character types:
-    Lowercase
-    Uppercase
-    Numeric
+    Lowercase,
+    Uppercase,
+    Numeric,
     Special characters ($@%&*, etc.)
 
 * Code should validate for each input and at least one character type should be selected.
