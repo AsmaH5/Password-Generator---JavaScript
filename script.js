@@ -88,7 +88,7 @@ var specialCharacters = [
     'Z'
   ];
  
- 
+  var selectedPasswordCharacters = [];  
   var passwordLength = 0;  
 
   // Function to prompt user for password options
