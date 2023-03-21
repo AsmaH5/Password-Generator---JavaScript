@@ -146,7 +146,12 @@ function getPasswordOptions() {
   // Function to generate password with user input
   function generatePassword() {
     getPasswordOptions();
-    
+
+    if (selectedPasswordCharacters.length > 0) {    
+        return getRandom(selectedPasswordCharacters);
+    } else {
+        return " ";
+    }   
   }
   
   // Get references to the #generate element
