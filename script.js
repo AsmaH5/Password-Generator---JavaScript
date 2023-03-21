@@ -96,6 +96,14 @@ function getPasswordOptions() {
     selectedPasswordCharacters = []
     passwordLength = prompt ("Please enter desired password length");
 
+    if (passwordLength < 8 ){
+        alert ("Your password length must be above 8 characters");
+        return;
+    } else if (passwordLength > 128 ){
+        alert ("Your password length must be less than 128 characters");
+        return;
+    }
+
 }
   
   // Function for getting a random element from an array
