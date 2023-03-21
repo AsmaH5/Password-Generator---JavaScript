@@ -38,6 +38,7 @@ After answering all of the above questions a password will be presented on the s
 ![Screenshot 4](https://user-images.githubusercontent.com/97250633/226691271-d4edae52-f991-482d-9ad3-3783fa46e863.png)
 
 ## Project Link:
+https://asmah5.github.io/Password-Generator---JavaScript/
 
 ## Acknowledgments
 * [W3 schools](https://www.w3schools.com/js/default.asp)
