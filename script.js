@@ -87,20 +87,25 @@ var specialCharacters = [
     'Y',
     'Z'
   ];
-  
+ 
+ 
+
+
   // Function to prompt user for password options
-  function getPasswordOptions() {
-  
-  }
+function getPasswordOptions() {
+    selectedPasswordCharacters = []
+    passwordLength = prompt ("Please enter desired password length");
+
+}
   
   // Function for getting a random element from an array
-  function getRandom(arr) {
-  
-  }
+  function getRandom(array) {
+
+  } 
   
   // Function to generate password with user input
   function generatePassword() {
-  
+    
   }
   
   // Get references to the #generate element
